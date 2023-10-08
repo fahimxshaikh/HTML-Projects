@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}        
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 1;
+    letter-spacing: 1.2px;
+}
+
+.list{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    z-index: +1;
+    padding: 5px;
+}
+
+.list a{
+    
+    text-decoration: none;
+    color: #fdc8a6;
+    /* font-weight: bold; */
+    font-family: Raleway;
+}
+
+.list a:hover{
+    color: white;
+    transition: all ease 0.5s;
+    /* color: rgb(173, 173, 63); */
+   
+}
+
+#headimg{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    
+}
+
+.bgimage{
+    background-image: url(./images/bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 715px;
+    width: 100%;
+    position: relative;
+}
+
+#tag{
+    box-sizing: border-box;
+}
+
+.name{
+    font-family: Yesteryear;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    transform: translateY(200px);
+}
+
+#order{
+    padding: 10px;
+    height: 60px;
+    width: 200px;
+    background-color: #fdc8a6;
+    border-radius: 50px;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#order a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+.prod{
+    padding: 80px;
+}
+
+#category{
+    font-family: Yesteryear;
+    color: #3d3d3d;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    position: relative;
+    background-image: url(./images/stroke.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+span{
+    color: #3d3d3d;
+}
+
+.menu{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    font-family: Raleway;
+}
+
+.row{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#desc{
+    padding: 10px;
+}
+
+#cakes1{
+    display: flex;
+    /* border: 2px solid #fdc8a6;
+    border-bottom: none; */
+}
+#cakes2{
+    display: flex;
+    /* border: 2px solid #fdc8a6;
+    border-bottom: none; */
+}
+
+#icecreams{
+    display: flex;
+}
+
+#sweets{
+    display: flex;
+}
+
+#shakes{
+    display: flex;
+}
+
+#footer{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 18px;
+    position: relative;
+    bottom: 0px;
+    background-color: #3d3d3d;
+    border-color: transparent;
+    letter-spacing: 1.2px;
+}
+
+#footer p{
+    font-family: Raleway;
+    color: #fdc8a6;
+    position: absolute;
+    left: 25px;
+}
+
+.row:hover{
+    box-shadow: 5px 5px 3px #eee;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    background-color: #eee;
+    transform: scale(1.02,1.02);
+    /* transition-delay: 1s; */
+}
+

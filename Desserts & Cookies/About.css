@@ -1,0 +1,456 @@
+.aboutmain{
+    display: flex;
+    /* align-content: center; */
+}
+.footer {
+    background-color: rgb(162, 106, 106);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: bold;
+  }
+  
+  .footer-links li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(219, 78, 26);
+    transition: width 0.3s ease;
+  }
+  
+  .footer-links li a:hover:before {
+    width: 100%;
+  }
+  
+  .footer-social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .footer-social-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-social-links li a {
+    text-decoration: none;
+    color: rgb(29, 32, 28);
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .footer-social-links li a:hover {
+    color: rgb(176, 112, 176);
+  }
+.about {
+    /* font-family: cursive; */
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(222, 104, 104);
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 70px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.parahead{
+    /* font-family: 'Lilita One', cursive; */
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Source Sans 3', sans-serif;
+    color: rgb(222, 104, 104);
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 310px;
+    margin-left: 70px;
+    font-weight: bolder;
+}
+.paragraph1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Source Sans 3', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 380px;
+    margin-left: 70px;
+    font-weight: 500;
+}
+.paragraph2{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Source Sans 3', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 410px;
+    margin-left: 70px;
+    font-weight: 500;
+}
+.paragraph3{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Source Sans 3', sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 440px;
+    margin-left: 70px;
+    font-weight: 500;
+}
+
+
+
+
+
+.cont2{
+    display: flex;
+}
+.cont2img{
+    display: flex;
+}
+.img5{
+    margin-top: 30px;
+}
+.img6{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.img7{
+    margin-top: 400px;
+    margin-left: 10px;
+}
+.parahead1{
+    color: rgb(80, 35, 35);
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 80px; 
+}
+.parahead1:hover{
+    color: rgb(140, 0, 0);
+}
+.cont2line{
+    border: 4px solid rgb(80, 35 ,35);
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.paragraph4{
+    color: rgb(80, 35, 35);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.paragraph4:hover{
+    color: rgb(140, 0, 0);
+}
+.cont2para{
+    box-sizing: border-box;
+}
+.cont2 .cont2para .paragraph4 p{
+    color: rgb(0, 225, 255);
+}
+.cont2 .cont2para .paragraph4 a{
+    font-size: 80px;
+}
+
+
+
+
+
+
+.cont3{
+
+}
+.cont3img{
+
+}
+.img9{
+    margin-top: 100px;
+    opacity: 60%;
+}
+.cont3 .cont3img .parahead2{
+    color: rgb(80, 35, 35);
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 100px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 1850px;
+    margin-left: 435px;
+}
+
+
+
+
+
+.cont4{
+    margin-top: 150px;
+}
+.teamhead{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-left: 125px;
+}
+.cont4line{
+    border: 4px solid rgb(80, 35, 35);
+    width: 1300px;
+    margin-top: 20px;
+    margin-left: 125px;
+}
+.couple1{
+    display: flex;
+}
+.memY{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+.NameY{
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.JobY{
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.memS{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 270px;
+}
+.NameS{
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.JobS{
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cont5line{
+    border: 2px solid rgb(80, 35, 35);
+    width: 1300px;
+    margin-top: 20px;
+    margin-left: 125px;
+}
+
+
+.couple2{
+    display: flex;
+}
+
+.memH{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+.NameH{
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.JobH{
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.memF{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 244px;
+}
+.NameF{
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.JobF{
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+/* .cont6line{
+    border: 2px solid rgb(80, 35, 35);
+    width: 1580px;
+    margin-top: 20px;
+    margin-left: 0px;
+} */
+
+
+
+
+.cont5{
+    margin-top: 50px;
+}
+.img9{
+    opacity: 40%;
+}
+.FHead{
+    color: rgb(80, 35, 35);
+    font-family: cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 60px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 2900px;
+    margin-left: 120px;
+}
+.cont6line{
+    border: 4px solid rgb(80, 35 ,35);
+    width: 150px;
+    font-family: cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 60px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 3010px;
+    margin-left: 120px;
+}
+.dayM2F{
+    color: rgb(80, 35, 35);
+    font-family: cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 3050px;
+    margin-left: 120px;
+}
+.timeM2F{
+    color: rgb(80, 35, 35);
+    font-family: cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 15px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 3100px;
+    margin-left: 120px;
+}
+.dayS2S{
+    color: rgb(80, 35, 35);
+    font-family: cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 3180px;
+    margin-left: 120px;
+}
+.timeS2S{
+    color: rgb(80, 35, 35);
+    font-family: cursive;
+    position: absolute;
+    font-weight: bold;
+    top: 8px;
+    left: 16px;
+    font-size: 15px;    
+    font-weight: 900;
+    line-height: 100px;
+    text-transform: inherit;
+    margin-top: 3230px;
+    margin-left: 120px;
+}
